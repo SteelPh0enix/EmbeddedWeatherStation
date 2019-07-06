@@ -1,0 +1,19 @@
+/*
+ * utils.h
+ *
+ *  Created on: 04.07.2019
+ *      Author: steelph0enix
+ */
+
+#ifndef INC_UTILS_H_
+#define INC_UTILS_H_
+
+#include "printf.h"
+#include "usart.h"
+#include "BMP280.h"
+
+BMP280_HandleTypedef bme280;
+
+void prints(UART_HandleTypeDef* uart, char const* message);
+
+#endif /* INC_UTILS_H_ */

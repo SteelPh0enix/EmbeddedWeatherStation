@@ -1,0 +1,13 @@
+/*
+ * utils.c
+ *
+ *  Created on: 04.07.2019
+ *      Author: steelph0enix
+ */
+
+#include "utils.h"
+#include <string.h>
+
+void prints(UART_HandleTypeDef* uart, char const* message) {
+	HAL_UART_Transmit(uart, (uint8_t*)message, strlen(message), 1000);
+}
