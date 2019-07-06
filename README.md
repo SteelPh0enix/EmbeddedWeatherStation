@@ -25,7 +25,7 @@ Additional header on the left of BME280 was used for external RTC module, becaus
 * STM32:
     * **STM32CubeMX** for project and boilerplate generation
     * **Atollic TrueSTUDIO for STM32** as main IDE
-    * **OpenRTOS** as *operating system* for STM32
+    * **OpenRTOS** (or rather **CMSIS v1** to be precise) as *operating system* for STM32
 * ESP8266:
     * **NodeMCU** for ESP firmware
     * **ESPLorer** as IDE, and code uploader
