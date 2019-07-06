@@ -42,7 +42,7 @@ Okay, no problem. You can find STM32 pinout by opening the project in STM32CubeM
 * ADC1_IN0 (PA0) (and ADC1_IN1 (PA1) in case of two cells) will be used for battery measurement in the future. You will have to make sure that input voltage won't exceed 3.3V, or you will damage your MCU. I'l planning to use 18650 cell(s) with cheap chinese step-down converter to power this stuff up, and voltage divider to reduce input voltage for ADC.
 * USART1_RX (PA10) and USART1_TX (PA9) for STM32<->ESP connectivity and optional debugging
 * PC14, PC15, PD0 and PD1 as external oscillators input
-* PA13 and PA14 for DSW (Debug Serial Wire)
+* PA13 and PA14 for DSW (Debug Serial Wire) (for STLink v2 debugging)
 
 ESP8266 pinout is basically RX and TX connected to STM32 TX and RX.
 
