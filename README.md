@@ -1,8 +1,3 @@
-## Repository
-
-Root directory contains Atollic TrueSTUDIO and STM32CubeMX project. NodeMCU Lua code can be found in [`NodeMCU`](./NodeMCU) directory.
-
-## You want to make it yourself?
 # Simple, yet overkilled, weather station
 
 ## Description
