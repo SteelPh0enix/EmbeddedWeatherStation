@@ -46,4 +46,4 @@ Okay, no problem. You can find STM32 pinout by opening the project in STM32CubeM
 
 ESP8266 pinout is basically RX and TX connected to STM32 TX and RX.
 
-Also, make sure to create `credentails.lua` file with `SSID` and `PASSWORD` variables for your WiFi connection, and upload it to ESP. Obviously, i'm not including mine.
+Also, make sure to create `credentials.lua` file with `SSID` and `PASSWORD` variables for your WiFi connection, and upload it to ESP. Obviously, i'm not including mine.
